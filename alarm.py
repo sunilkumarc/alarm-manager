@@ -35,16 +35,16 @@ class Score(QtGui.QMainWindow):
 		self.message4 = str(self.ui.message4.toPlainText())
 
 		if(self.hr1 != "" and self.min1 != ""):
-			os.system("./script.sh" + " " + self.hr1 + " " + self.min1 + " " + self.message1 + " &")
+			os.system("/opt/alarm-manager/./script.sh" + " " + self.hr1 + " " + self.min1 + " " + self.message1 + " &")
 
 		if(self.hr2 != "" and self.min2 != ""):
-			os.system("./script.sh" + " " + self.hr2 + " " + self.min2 + " " + self.message2 + " &")
+			os.system("/opt/alarm-manager/./script.sh" + " " + self.hr2 + " " + self.min2 + " " + self.message2 + " &")
 
 		if(self.hr3 != "" and self.min3 != ""):
-			os.system("./script.sh" + " " + self.hr3 + " " + self.min3 + " " + self.message3 + " &")
+			os.system("/opt/alarm-manager/./script.sh" + " " + self.hr3 + " " + self.min3 + " " + self.message3 + " &")
 
 		if(self.hr4 != "" and self.min4 != ""):
-			os.system("./script.sh" + " " + self.hr4 + " " + self.min4 + " " + self.message4 + " &")
+			os.system("/opt/alarm-manager/./script.sh" + " " + self.hr4 + " " + self.min4 + " " + self.message4 + " &")
 
 		self.close()
 
