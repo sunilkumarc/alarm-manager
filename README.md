@@ -5,9 +5,7 @@ This is a desktop application for setting up reminders. You just have to enter t
 
 Requirements
 ----------------
- * Python2.x (python2.7 in ubuntu)git clone https://github.com/sunilkumarc/scorecard
-
-
+ * Python2.x (python2.7 in ubuntu)
  * PyQt4 (pyqt4-dev-tools in ubuntu)
 
 Installation
