@@ -1,3 +1,10 @@
+'''
+	Author : Sunil Kumar C
+	Date : 25-05-2013
+	Description: A simple desktop application which works as an alarm.
+	Version : 1.0 
+'''
+
 #!/usr/bin/env python2
 
 from PyQt4 import QtGui, QtCore
