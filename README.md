@@ -5,8 +5,8 @@ This is a desktop application for setting up reminders. You just have to enter t
 
 Requirements
 ----------------
- * Python2.x (python2.7 in ubuntu)
- * PyQt4 (pyqt4-dev-tools in ubuntu)
+ * Python3.x
+ * PyQt4 (Install proper package depending on your Linux distribution)
 
 Installation
 -------------
