@@ -41,6 +41,7 @@ class Score(QtGui.QMainWindow):
 
 			if len(self.min1) == 1:
 				self.min1 = "0"+self.min1
+
 			os.system("/opt/alarm-manager/./script.sh" + " " + self.hr1 + " " + self.min1 + " " + self.message1.rstrip() + "&")
 
 		if(self.hr2 != "" and self.min2 != ""):
@@ -49,6 +50,7 @@ class Score(QtGui.QMainWindow):
 
 			if len(self.min2) == 1:
 				self.min2 = "0"+self.min2
+
 			os.system("/opt/alarm-manager/./script.sh" + " " + self.hr2 + " " + self.min2 + " " + self.message2.rstrip() + "&")
 
 		if(self.hr3 != "" and self.min3 != ""):
@@ -57,6 +59,7 @@ class Score(QtGui.QMainWindow):
 
 			if len(self.min3) == 1:
 				self.min3 = "0"+self.min3
+
 			os.system("/opt/alarm-manager/./script.sh" + " " + self.hr3 + " " + self.min3 + " " + self.message3.rstrip() + "&")
 
 		if(self.hr4 != "" and self.min4 != ""):
@@ -65,6 +68,7 @@ class Score(QtGui.QMainWindow):
 
 			if len(self.min4) == 1:
 				self.min4 = "0"+self.min4
+				
 			os.system("/opt/alarm-manager/./script.sh" + " " + self.hr4 + " " + self.min4 + " " + self.message4.rstrip() + "&")
 
 		self.close()
