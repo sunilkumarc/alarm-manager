@@ -17,7 +17,8 @@ do
 	hr=`date +%H`
 	if [ $hr == $hour -a $min == $minutes ]
 	then
-		notify-send -t 3000 "ALARM       " "$message" -i /opt/alarm-manager/alarm.jpg
+		notify-send -t 5000 "ALARM       " "$message" -i /opt/alarm-manager/alarm.jpg
+		mplayer /opt/alarm-manager/alarm.mp3
 		flag=0
 	fi
 done
