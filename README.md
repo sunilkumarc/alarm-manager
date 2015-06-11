@@ -7,6 +7,7 @@ Requirements
 ----------------
  * Python3.x
  * PyQt4 (Install proper package depending on your Linux distribution)
+ * mplayer for linux
 
 Installation
 -------------
@@ -27,4 +28,3 @@ To uninstall run the command
 
     alarm-uninstall
 in your terminal.
-
